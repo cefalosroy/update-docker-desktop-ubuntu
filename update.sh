@@ -31,7 +31,7 @@ rm docker-desktop-latest.deb
 # Step 6: Verify
 echo "Checking Docker version..."
 docker --version
-docker-compose --version
+docker compose --version
 
 echo "Docker Desktop Update Completed Successfully ✅"
 
