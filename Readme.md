@@ -13,6 +13,13 @@ A simple one-click script to remove old Docker Desktop and install the latest ve
 - Version verification after installation
 
 ## 🚀 Usage (One-Line Command)
+Before running the one-line command, make sure:
+- Downloaded `.deb` file is in your `Downloads` folder.
+- Go to the Downloads directory (or the directory you prefer):
+```bash
+cd Downloads
+```
+Now, run the script in one line:
 ```bash
 curl -sL https://raw.githubusercontent.com/cefalosroy/update-docker-desktop-ubuntu/main/update.sh | bash
 ```
